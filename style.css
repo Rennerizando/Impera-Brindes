@@ -10,7 +10,7 @@
 }
 
 /* inicio DO MEU cabeçalho */ 
-@media screen and (max-width: 630px){
+@media screen and (max-width: 750px){
 header{
     width: 100%;
     height: 7vh;
