@@ -24,8 +24,7 @@ header{
 }
 nav ul{
     
-   justify-content: right;
-    position: relative;
+   justify-content: center;
     display: flex;
     flex-direction: row;
     margin-right: 1vw;
