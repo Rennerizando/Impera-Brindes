@@ -8,7 +8,14 @@
     list-style: none;
     
 }
+.owl-dots{
+   
+    margin-left: 45%;
+    position: absolute;
+    top: 100px;
 
+    float: left;
+}
 /* inicio DO MEU cabeçalho */ 
     @media screen and (max-width: 700px){
         header{
@@ -46,78 +53,29 @@
 
 
 /* MEU MAIN */
-.filme-principal{
-    font-size: 16px;
-    background: linear-gradient(rgba(0, 0, 0,.50), rgba(0, 0, 0,.50)100%), url('/img/capa-homem-aranha.jpg');
 
-    height: 400px;
-    background-size: cover;
 
+.sobre-impera-brindes{
+    height: 50vh;
+    
+    
+}
+.logo-titulo{
+    margin: 10px 35%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+    width: 150px;
 }
 
-.filme-principal .descricao{
-    margin-top: 10px;
-    margin-bottom: 40px;
+.sobre-impera-brindes p{
+    padding: 0px 15px;
+    text-align: center;
+    margin: 0px 0 15px 0;
+    font-weight: 700;
+    color: #212121;
+    font-size: 16px;
+    line-height: 28px;
 }
-
-.filme-principal  .titulo{
-    margin-top: 15%;
-    font-size: 40px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-.botao{
- 
-    background-color: rgba(0,0,0,.50);
-    border: none;
-    color: aliceblue;
-    padding: 15px 30px;
-    
-    margin-right: 15px;
-    font-size: 12px;
-
-    cursor: pointer;
-    transition: .2s ease all;
-}
-
-.botao:hover{
-    background-color: aliceblue;
-    color: black;
-}
-
-.botao i{
-    margin-right: 8px;
-}
-
-
-.conteiner{
-    margin-left: 20px;
-}
-
-.filme-principal .conteiner{
-    width: 70%;
-}
-
-/* MEU MAIN */
-
-/* inicio imagens filmes */
-
-.box-filme{
-    height: 100%;
-    width: 100%;
-    display: block;
-}
-
-.carrosel-filme{
-    
-    margin-top: 20px;
-}
-
-/* final imagens filmes */
+/* FINAL MEU MAIN */
 
 
 /* INICIO DO MEU FOOTER */ 
