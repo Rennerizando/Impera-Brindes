@@ -137,7 +137,8 @@
 }
 
 
-.btn-vertodos{
+
+.btn-vertodos {
     text-align: center;
     width: 150px;
     height: 40px;
@@ -148,6 +149,11 @@
     background-color: rgb(56, 56, 56);
 }
 
+.btn-vertodos:hover{
+    transition: all 3s ease;
+    color: #212121;
+    background: linear-gradient(90deg, rgba(255,168,69,1) 0%, rgba(255,158,0,1) 38%, rgba(255,116,0,1) 100%); 
+}
 /*MInha section produçoes*/
 
 
