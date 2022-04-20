@@ -10,14 +10,14 @@
 }
 .owl-dots{
    
-    margin-left: 45%;
+    margin-left: 40%;
     position: absolute;
     top: 100px;
 
     float: left;
 }
 /* inicio DO MEU cabeçalho */ 
-    @media screen and (max-width: 700px){
+    @media screen and (max-width: 400px){
         header{
             width: 100%;
             height: 7vh;
@@ -56,26 +56,90 @@
 
 
 .sobre-impera-brindes{
-    height: 50vh;
+    
+    height: 45vh;
     
     
 }
 .logo-titulo{
-    margin: 10px 35%;
+   
+    margin: 10px 30%;
     display: flex;
     width: 150px;
 }
 
 .sobre-impera-brindes p{
+ 
     padding: 0px 15px;
     text-align: center;
     margin: 0px 0 15px 0;
     font-weight: 700;
-    color: #212121;
+    color: #757575;
     font-size: 16px;
     line-height: 28px;
 }
 /* FINAL MEU MAIN */
+
+/*MInha section produçoes*/
+
+.conteiner h2{
+    margin-top: 30px;
+    font-size: 48px;
+    text-align: center;
+    color: #212121;
+}
+
+.conteiner p{
+    line-height: 25px;
+    text-align: center;
+    color: #757575;
+}
+
+
+
+.todos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.background-produto1{
+    margin: 30px 28px;
+    display: flex;
+    flex-direction: row;
+  
+   height: 24vh;
+   width: 100%;
+}
+
+.caixa-produto img{
+    width: 150px;
+    height: 150px;
+}
+.caixa-produto1 img{
+    width: 150px;
+    height: 150px;
+}
+
+.caixa-produto{
+    overflow: hidden;
+    background-color: black;
+    width: 150px;
+    height: 150px;
+}
+.caixa-produto1{
+    overflow: hidden;
+    margin-left: 40px;
+    background-color: rgb(0, 86, 245);
+    width: 150px;
+    height: 150px;
+}
+
+
+/*MInha section produçoes*/
+
+
 
 
 /* INICIO DO MEU FOOTER */ 
@@ -83,7 +147,7 @@
 footer{
     
     display: flex;
-    height: 30vh;
+    height: 23vh;
     width: 100%;
     background: linear-gradient(90deg, rgba(255,168,69,1) 0%, rgba(255,158,0,1) 38%, rgba(255,116,0,1) 100%);
 }
