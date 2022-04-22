@@ -19,43 +19,25 @@
 
 
 /*MENU MOBILE*/
-header img{
-    width: 150px;
- 
-
-}
 body,
 ul {
   margin: 0px;
   padding: 0px;
 }
-span{
-    color: rgba(255,116,0,1);
-}
-a {
-  color: black;
-  text-decoration: none;
-  font-family: sans-serif;
-}
-
-a:hover {
-  background: rgba(0, 0, 0, 0.05);
-}
 
 #logo {
-  margin-left: 100px;
   font-size: 1.5rem;
   font-weight: bold;
 }
 
 #header {
   box-sizing: border-box;
-  height: 120px;
+  height: 80px;
   padding: 1rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #f1f1f1;
+  background: #e7e7e7;
 }
 
 #menu {
@@ -74,30 +56,40 @@ a:hover {
 }
 
 @media (max-width: 600px) {
-  #menu {
+    header img{
+        width: 150px; 
+        margin-left: 100px;
+    }
+
+  #menu { 
     display: block;
     position: absolute;
     width: 100%;
     top: 70px;
     right: 0px;
     background: #e7e7e7;
-    transition: 0.6s;
+    transition: .6s;
     z-index: 1000;
     height: 0px;
     visibility: hidden;
     overflow-y: hidden;
   }
   #nav.active #menu {
-    height: calc(100vh - 70px);
+    color: #cc5303;
+    margin-top: 0px;
+    height: calc(50vh - 70px);
     visibility: visible;
     overflow-y: auto;
+    transition: all 3 ease;
   }
   #menu a {
+     
     padding: 1rem 0;
     margin: 0 1rem;
     border-bottom: 2px solid rgba(0, 0, 0, 0.05);
   }
   #btn-mobile {
+      
     display: flex;
     padding: 0.5rem 1rem;
     font-size: 1rem;
@@ -107,6 +99,7 @@ a:hover {
     gap: 0.5rem;
   }
   #hamburger {
+    color: #cc5303;
     border-top: 2px solid;
     width: 20px;
   }
@@ -132,7 +125,6 @@ a:hover {
     top: -7px;
   }
 }
-
 
 /*MENU MOBILE*/
 
