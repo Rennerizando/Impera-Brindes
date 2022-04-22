@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -17,123 +18,18 @@
     float: left;
 }
 
-
-/*MENU MOBILE*/
-body,
-ul {
-  margin: 0px;
-  padding: 0px;
-}
-
-#header {
-  box-sizing: border-box;
-  height: 70px;
-  padding: 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background: #e7e7e7;
-}
-
-#menu {
-  display: flex;
-  list-style: none;
-  gap: 0.5rem;
-}
-
-#menu a {
-  display: block;
-  padding: 0.5rem;
-}
-
-#btn-mobile {
-  display: none;
-}
-
-@media (max-width: 600px) {
-    header img{
-        width: 150px; 
-        margin-left: 100px;
-    }
-
-  #menu { 
-    display: block;
-    position: absolute;
-    width: 100%;
-    top: 70px;
-    right: 0px;
-    background: #e7e7e7;
-    transition: 1s;
-    z-index: 1000;
-    height: 0px;
-    visibility: hidden;
-    overflow-y: hidden;
-  }
-  #nav.active #menu {
-    color: #cc5303;
-    margin-top: 0px;
-    height: calc(100vh - 70px);
-    visibility: visible;
-    overflow-y: auto;
-    transition: all 3 ease;
-  }
-  #menu a {
-     
-    padding: 1rem 0;
-    margin: 0 1rem;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.05);
-  }
-  #btn-mobile {
-      
-    display: flex;
-    padding: 0.5rem 1rem;
-    font-size: 1rem;
-    border: none;
-    background: none;
-    cursor: pointer;
-    gap: 0.5rem;
-  }
-  #hamburger {
-    color: #cc5303;
-    border-top: 2px solid;
-    width: 20px;
-  }
-  #hamburger::after,
-  #hamburger::before {
-    content: '';
-    display: block;
-    width: 20px;
-    height: 2px;
-    background: currentColor;
-    margin-top: 5px;
-    transition: 0.3s;
-    position: relative;
-  }
-  #nav.active #hamburger {
-    border-top-color: transparent;
-  }
-  #nav.active #hamburger::before {
-    transform: rotate(135deg);
-  }
-  #nav.active #hamburger::after {
-    transform: rotate(-135deg);
-    top: -7px;
-  }
-}
-
-/*MENU MOBILE*/
-
 /* inicio DO MEU cabeçalho */ 
-    @media screen and (max-width: 450px){
-        header{border-bottom: rgba(255,116,0,1) 2px solid;
+        header{
+            
+            border-bottom: rgba(255,116,0,1) 2px solid;
             width: 100%;
             height: 10vh;
             background-color: rgb(255, 255, 255);
         }
         
-        .img-logo{
+        header img{
             margin: 10px;
-            width: 60px;
+            width: 120px;
         
         }
         nav ul{
@@ -142,7 +38,7 @@ ul {
             display: flex;
             flex-direction: row;
             margin-right: 1vw;
-            margin-top: -2rem;
+            margin-top: 2rem;
             
         }
         
@@ -161,32 +57,33 @@ ul {
 /* MEU MAIN */
 
 .divisao-imagem{
+    width: 400px;
+    height:50px;
     display: flex;
    margin: auto;
     justify-content: center;
 }
 .sobre-impera-brindes{
-    
     height: 50vh;
     
     
 }
 .logo-titulo{
    
-    margin: 10px 30%;
+    margin: 10px 40%;
     display: flex;
-    width: 150px;
+    width: 20%;
 }
 
 .sobre-impera-brindes p{
  
-    padding: 0px 15px;
+    padding: 10px 175px;
     text-align: center;
-    margin: 0px 0 15px 0;
-    font-weight: 700;
+    margin: 10px 0 86px 0;
+    font-weight: 400;
     color: #757575;
-    font-size: 16px;
-    line-height: 28px;
+    font-size: 28px;
+    line-height: 35px;
 }
 /* FINAL MEU MAIN */
 
@@ -194,12 +91,12 @@ ul {
 /* MEU section personalize */
 .personalize{
     width: 100%;
-    height: 430px;
+    height: 450px;
     background:url(fundo-personalize.jpg);
 }
 .personalize h2{
-    font-size: 40px;
-    line-height: 65px;
+    font-size: 60px;
+    line-height: 28px;
     margin: 0px 0px 15px 0px;
     padding-top: 25px;
     text-align: center;
@@ -208,8 +105,16 @@ ul {
 }
 
 .personalize p{
+    font-size: 30px;
+    line-height: 35px;
     text-align: center;
-    margin: 0px 15px 0px 15px;
+    margin: 10px 15px;
+}
+
+.divisao-imagem-personalize{
+    display: flex;
+    margin: 60px 0px;
+    margin-left: 39%;    
 }
 
 .personalize .abrir-personalizado{
@@ -217,16 +122,15 @@ ul {
     background-color: #ff6a07;
     padding: 6px 15px;
     font-weight: bold;
-    min-width: 140px;
-    height: 40px;
+    min-width: 500px;
+    height: 60px;
     border: none;
     line-height: 28px;
     text-transform: uppercase;
-    margin: 10px 0;
     display: inline-block;
-    font-size: 14px;
-    margin-top: 30px;
-    margin-left: 100px ;
+    font-size: 18px;
+    margin-top: 60px;
+    margin-left: 36% ;
 
 }
 
@@ -238,12 +142,14 @@ ul {
 
 .conteiner h2{
     margin-top: 30px;
-    font-size: 48px;
+    font-size: 60px;
     text-align: center;
     color: #212121;
 }
 
 .conteiner p{
+    margin-bottom: 50px;
+    font-size: 20px;
     line-height: 25px;
     text-align: center;
     color: #757575;
@@ -261,6 +167,7 @@ ul {
     justify-content: center;
 }
 .todos{
+    margin-bottom: 50px;
     overflow: hidden;
     width: 100%;
     display: flex;
@@ -269,8 +176,8 @@ ul {
 }
 
 .background-produto1{
-    margin: 30px 10px;
     display: flex;
+    justify-content: center;
     flex-direction: row;
   
    height: 24vh;
@@ -278,39 +185,40 @@ ul {
 }
 
 .caixa-produto img{
-    width: 150px;
-    height: 150px;
+    width: 300px;
+    height: 300px;
 }
 .caixa-produto1 img{
-    width: 150px;
-    height: 150px;
+    width: 300px;
+    height: 300px;
 }
 
 .caixa-produto{
-    
+    margin:0px 70px 0px 70px;
     background-color: black;
-    width: 150px;
-    height: 150px;
+    width: 300px;
+    height: 300px;
 }
 .caixa-produto1{
    
-    margin-left:70px;
+    margin:170px 70px 0px 70px;
     background-color: rgb(0, 86, 245);
-    width: 150px;
-    height: 150px;
+    width: 300px;
+    height: 300px;
 }
 
 
 
 .btn-vertodos {
+    cursor: pointer;
     text-align: center;
-    width: 150px;
-    height: 40px;
-    border-radius: 15px;
+    width: 500px;
+    height: 60px;
+    border-radius: 50px;
     border-style: none;
-    margin-left: 30%;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-left: 37%;
+    font-size: 20px;
+    margin-top: 200px;
     background-color: rgb(56, 56, 56);
 }
 
@@ -322,8 +230,8 @@ ul {
 
 .btn-produtos{
     text-align: center;
-    width: 150px;
-    height: 30px;
+    width: 300px;
+    height: 50px;
     border-style: none;
     background-color: rgb(56, 56, 56);
 }
@@ -373,17 +281,27 @@ footer{
 
 .texto-rodepe{
     margin-top: 3rem;
+    
 }
 
 footer h2 {
+    margin-right: 50%;
+    margin-top: -35px;
+    font-size: 30px;
+    text-align: right;
     color: black;
 }
 
 footer p{
+    padding-top: 20px;
+    margin-right: 57%;
+    text-align: right;
     color: black;
 }
 
 footer i{
+
+    font-size: 20px;
     color: rgb(97, 47, 47);
     margin-right: 1rem;
 }
@@ -393,17 +311,10 @@ footer a{
     color: black;
 }
 
-.contato-a-rodape{
-    display: flex;
-    flex-direction: column;
-}
-
 .icon-mobile{
-    margin-top: -15px;
+    margin-top: 15px;
 }
 
 .local{
-    font-size: 15px;
-}
-
+    font-size: 18px;
 }
