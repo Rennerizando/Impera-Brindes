@@ -20,6 +20,7 @@
 
 /*MENU MOBILE*/
 body,
+
 ul {
   margin: 0px;
   padding: 0px;
@@ -55,7 +56,10 @@ ul {
         width: 150px; 
         margin-left: 100px;
     }
-
+    .menu-cabecalho li{
+        display: none;
+    }
+    
   #menu { 
     display: block;
     position: absolute;
@@ -335,6 +339,9 @@ ul {
     border-style: none;
     background-color: rgb(56, 56, 56);
 }
+.ultimas-producoes-desktop{
+    display: none;
+}
 /*MInha section produçoes*/
 
 
@@ -342,7 +349,7 @@ ul {
 
 /* INICIO DO MEU FOOTER */ 
 
-footer{
+.footer-mobile{
     
     display: flex;
     height: 26vh;
@@ -404,6 +411,10 @@ footer a{
 
 .local{
     font-size: 15px;
+}
+
+.footer-desktop{
+    display: none;
 }
 
 }
