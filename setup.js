@@ -7,11 +7,13 @@ $('.owl-carousel').owlCarousel({
     responsive:{
         0:{
             items:1,
-            nav:false
+            nav:false,
+            loop:true
         },
         600:{
             items:1,
-            nav:false
+            nav:false,
+            loop:true
         },
         1000:{
             items:1,

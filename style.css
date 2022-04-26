@@ -161,7 +161,10 @@ ul {
         }
         
 /* final DO MEU cabeçalho */ 
-
+section .outros-produtos-desktop{
+    display: none;
+    background-color: #cc5303;
+}
 /* MEU MAIN */
 
 .divisao-imagem{
@@ -217,6 +220,7 @@ ul {
 }
 
 .personalize .abrir-personalizado{
+    
     text-align: center;
     background-color: #ff6a07;
     padding: 6px 15px;
