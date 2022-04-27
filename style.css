@@ -247,9 +247,9 @@ section .outros-produtos-desktop{
 }
 
 .personalize-contato-mobile{
-    width: 100%;
+    background-color: #212121;
     height: 600px;
-    background:url(fundo-personalize.jpg);
+    width: 100%;
 }
 .personalize-contato-mobile h2{
     font-size: 60px;
