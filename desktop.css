@@ -14,7 +14,7 @@
    
     margin-left: 48%;
     position: absolute;
-    top: 400px;
+    top: 90%;
 
     float: left;
 }
@@ -29,7 +29,6 @@
         }
         
         #header img{
-            margin: 10px;
             width: 120px;
         
         }
@@ -44,7 +43,7 @@
 
        .menu-header .menu-cabecalho{
         display: flex;
-        margin-right: 20px;
+        margin-left:50vw;
        
        }
 
@@ -81,7 +80,7 @@
     justify-content: center;
 }
 .sobre-impera-brindes{
-    height: 80vh;
+    height: 50vh;
     
     
 }
@@ -93,10 +92,8 @@
 }
 
 .sobre-impera-brindes p{
- 
-    padding: 10px 175px;
+ margin: 5rem;
     text-align: center;
-    margin: 50px 86px 50px 86px;
     font-weight: 400;
     color: #757575;
     font-size: 28px;
@@ -115,15 +112,15 @@
 
 .personalize-contato{
     background-color: #212121;
-    height: 600px;
+    height: 950px;
     width: 100%;
 }
 
 .imagem-fundo img{
 display: flex;
-width: 650px;
-margin-top: -450px;
-margin-left: 680px;
+width: 50rem;
+margin-top: -25%;
+margin-left: 40%;
 }
 .personalize-contato h2{
     font-size: 60px;
@@ -182,53 +179,7 @@ margin-left: 680px;
 
 
 
-.personalize{
-    width: 100%;
-    height: 450px;
-    background:url(fundo-personalize.jpg);
-}
-.personalize h2{
-    font-size: 60px;
-    line-height: 28px;
-    margin: 0px 0px 15px 0px;
-    padding-top: 80px;
-    text-align: center;
-    color: #ffffff;
-    text-shadow: 3px 0px 10px #ffa24a, 0 0 5px #cc5303;
-}
 
-.personalize p{
-    font-size: 20px;
-    line-height: 35px;
-    text-align: center;
-    margin: 0px 15px;
-}
-
-.divisao-imagem-personalize{
-    display: flex;
-    margin: 30px 0px;
-    margin-left: 36%;    
-}
-
-.personalize .abrir-personalizado{
-    cursor: pointer;
-    text-align: center;
-    background-color: #ff6a07;
-    padding: 6px 15px;
-    font-weight: bold;
-    min-width: 500px;
-    height: 60px;
-    border: none;
-    line-height: 28px;
-    text-transform: uppercase;
-    display: inline-block;
-    font-size: 18px;
-    margin-top: 20px;
-    margin-left: 33% ;
-
-}
-
-/* MEU section personalize */
 
 
 
@@ -239,7 +190,6 @@ margin-left: 680px;
     display: none;
 }
 .conteiner h2{
-    margin-top: 30px;
     font-size: 60px;
     text-align: center;
     color: #212121;
@@ -276,7 +226,7 @@ margin-left: 680px;
     display: flex;
     justify-content: center;
     flex-direction: row;
-   height: 60vh;
+   height: 35vh;
    width: 100%;
 }
 
@@ -315,21 +265,19 @@ margin-left: 680px;
 
 .btn-vertodos {
     cursor: pointer;
-    margin-bottom: 50px;
-    cursor: pointer;
     text-align: center;
     width: 300px;
     height: 60px;
     border-radius: 50px;
     border-style: none;
-    margin-left: 42%;
+  margin: 1rem 44%;
     font-size: 18px;
     
     background-color: rgb(56, 56, 56);
 }
 
 .btn-vertodos:hover{
-    transition: all 3s ease;
+    transition: all .3s ease;
     color: #212121;
     background: linear-gradient(90deg, rgba(255,168,69,1) 0%, rgba(255,158,0,1) 38%, rgba(255,116,0,1) 100%); 
 }

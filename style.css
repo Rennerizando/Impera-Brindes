@@ -19,7 +19,6 @@
 
 
 /*MENU MOBILE*/
-body,
 
 ul {
   margin: 0px;
@@ -29,10 +28,9 @@ ul {
 #header {
   box-sizing: border-box;
   height: 70px;
-  padding: 1rem;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   background: #e7e7e7;
 }
 
@@ -51,10 +49,10 @@ ul {
   display: none;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
+      
     header img{
         width: 150px; 
-        margin-left: 100px;
     }
     .menu-cabecalho li{
         display: none;
@@ -82,7 +80,7 @@ ul {
     transition: all 3 ease;
   }
   #menu a {
-     
+     color: #cc5303;
     padding: 1rem 0;
     margin: 0 1rem;
     border-bottom: 2px solid rgba(0, 0, 0, 0.05);
@@ -123,12 +121,16 @@ ul {
     transform: rotate(-135deg);
     top: -7px;
   }
+
+
+  
 }
 
 /*MENU MOBILE*/
 
 /* inicio DO MEU cabeçalho */ 
-    @media screen and (max-width: 450px){
+  /*  @media screen and (max-width: 450px){
+        
         header{border-bottom: rgba(255,116,0,1) 2px solid;
             width: 100%;
             height: 10vh;
@@ -160,12 +162,12 @@ ul {
             color: rgb(248, 134, 58);
         }
         
-/* final DO MEU cabeçalho */ 
+ final DO MEU cabeçalho  
 section .outros-produtos-desktop{
     display: none;
     background-color: #cc5303;
 }
-/* MEU MAIN */
+ MEU MAIN 
 
 .divisao-imagem{
     display: flex;
@@ -195,60 +197,17 @@ section .outros-produtos-desktop{
     font-size: 16px;
     line-height: 28px;
 }
-/* FINAL MEU MAIN */
+ FINAL MEU MAIN 
 
 
-/* MEU section personalize */
-.personalize{
-    width: 100%;
-    height: 430px;
-    background:url(fundo-personalize.jpg);
-}
-.personalize h2{
-    font-size: 40px;
-    line-height: 65px;
-    margin: 0px 0px 15px 0px;
-    padding-top: 25px;
-    text-align: center;
-    color: #ffffff;
-    text-shadow: 3px 0px 10px #ffa24a, 0 0 5px #cc5303;
-}
-
-.personalize p{
-    text-align: center;
-    margin: 0px 15px 0px 15px;
-}
-
-.personalize .abrir-personalizado{
-    
-    text-align: center;
-    background-color: #ff6a07;
-    padding: 6px 15px;
-    font-weight: bold;
-    min-width: 140px;
-    height: 40px;
-    border: none;
-    line-height: 28px;
-    text-transform: uppercase;
-    margin: 10px 0;
-    display: inline-block;
-    font-size: 14px;
-    margin-top: 30px;
-    margin-left: 100px ;
-
-}
-
-/* MEU section personalize */
-
-
-/* MEU section personalize -- CONTATO -- MOBILE */
+ MEU section personalize -- CONTATO -- MOBILE 
 .personalize-contato{
     display: none;
 }
 
 .personalize-contato-mobile{
     background-color: #212121;
-    height: 600px;
+    height: 700px;
     width: 100%;
 }
 .personalize-contato-mobile h2{
@@ -302,10 +261,10 @@ section .outros-produtos-desktop{
     margin: 50px 50px;
 }
 
-/* MEU section personalize -- CONTATO -- MOBILE */
+ MEU section personalize -- CONTATO -- MOBILE 
 
 
-/*MInha section produçoes*/
+MInha section produçoes
 
 .conteiner h2{
     margin-top: 30px;
@@ -321,55 +280,6 @@ section .outros-produtos-desktop{
 }
 
 
-.todos-nossas
-{   
-    overflow: hidden;
-    width: 100%;
-    height: 1500px;
-    display: flex;
-    margin-top: -20px;
-    flex-direction: column;
-    justify-content: center;
-}
-.todos{
-    overflow: hidden;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.background-produto1{
-    margin: 30px 10px;
-    display: flex;
-    flex-direction: row;
-  
-   height: 24vh;
-   width: 100%;
-}
-
-.caixa-produto img{
-    width: 150px;
-    height: 150px;
-}
-.caixa-produto1 img{
-    width: 150px;
-    height: 150px;
-}
-
-.caixa-produto{
-    
-    background-color: black;
-    width: 150px;
-    height: 150px;
-}
-.caixa-produto1{
-   
-    margin-left:70px;
-    background-color: rgb(0, 86, 245);
-    width: 150px;
-    height: 150px;
-}
 
 
 
@@ -409,12 +319,12 @@ section .outros-produtos-desktop{
 .ultimas-producoes-desktop{
     display: none;
 }
-/*MInha section produçoes*/
+MInha section produçoes
 
 
 
 
-/* INICIO DO MEU FOOTER */ 
+ INICIO DO MEU FOOTER 
 
 .footer-mobile{
     

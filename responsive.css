@@ -1,8 +1,308 @@
-@media screen and (max-width:700px) {
+@media screen and (max-width:900px) {
     header .conteiner{
         display: flex;
         flex-direction: column;
     }
+    .carrosel-filme .box-filme{
+        position: relative;
+        margin-left: 76.7vw;
+        width: 100%;
+        min-width: 50%;
+    }
+    .owl-dots{
+   
+        margin-left: 45%;
+        position: absolute;
+        top: 80%;
+    
+        float: left;
+    }
+    section .outros-produtos-desktop{
+        display: none;
+        background-color: #cc5303;  
+    }
+    /* MEU MAIN */
+    
+    .divisao-imagem{
+        display: flex;
+       margin: auto;
+        justify-content: center;
+    }
+    .sobre-impera-brindes{
+        
+        height: 50%;
+        
+        
+    }
+    .logo-titulo{
+        width: 10rem;
+       padding-top: 1rem;
+        display: flex;
+        margin: auto;
+         justify-content: center;
+    }
+    
+    .sobre-impera-brindes p{
+     
+        padding: 0px 15px;
+        text-align: center;
+        margin: 0px 0 15px 0;
+        font-weight: 700;
+        color: #757575;
+        font-size: 16px;
+        line-height: 28px;
+    }
+    /* FINAL MEU MAIN */
+    
+    
+    
+    /* MEU section personalize -- CONTATO -- MOBILE */
+    .personalize-contato{
+        display: none;
+    }
+    
+    .personalize-contato-mobile{
+        background-color: #212121;
+        height: 700px;
+        width: 100%;
+    }
+    .personalize-contato-mobile h2{
+        font-size: 60px;
+        line-height: 28px;
+        margin: auto;
+        padding-top: 80px;
+        text-align: center;
+        color: #ffffff;
+        text-shadow: 3px 0px 10px #ffa24a, 0 0 5px #cc5303;
+    }
+    
+    
+    
+    .divisao-imagem-personalize-contato-mobile{
+        display: flex;
+        justify-content: center;
+        margin:auto;
+        padding-top: 2rem;
+            
+    }
+     
+    .caixa-contato-mobile img{
+        width: 15rem;
+        display: flex;
+        margin-left: 25%  ;
+    }
+    
+    .caixa-contato-mobile p{
+        font-weight: bold;
+        font-size: 20px;
+        text-align: center;
+        margin: auto;
+        padding-top: 3rem;
+    }
+    .personalize-contato-redes-sociais-mobile {
+       
+        margin: auto;
+        font-size: 30px;
+        text-align:center;
+    }
+    
+    .icons-contato-social-mobile {
+        display: flex;
+        font-size: 35px;
+        justify-content: center;  
+      
+        width: auto;
+    }
+    
+    .icons-contato-social-mobile i{
+        margin: 50px 50px;
+    }
+    
+    /* MEU section personalize -- CONTATO -- MOBILE */
+    
+    
+    /*MInha section produçoes*/
+    
+    .conteiner h2{
+        margin-top: 30px;
+        font-size: 48px;
+        text-align: center;
+        color: #212121;
+    }
+    
+    .conteiner p{
+        line-height: 25px;
+        text-align: center;
+        color: #757575;
+    }
+    
+    
+    .todos-nossas
+    {   
+        overflow: hidden;
+        width: 100%;
+        height: 1500px;
+        display: flex;
+        margin-top: -20px;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .todos{
+        overflow: hidden;
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .background-produto1{
+        justify-content: center;
+        margin: 3rem 0px;
+        display: flex;
+        flex-direction: row;
+      
+       height: 24vh;
+       width: 100%;
+    }
+    
+    .caixa-produto img{
+        width: 150px;
+        height: 150px;
+    }
+    .caixa-produto1 img{
+        width: 150px;
+        height: 150px;
+    }
+    
+    .caixa-produto{
+        
+        background-color: black;
+        width: 150px;
+        height: 150px;
+    }
+    .caixa-produto1{
+       
+        margin-left:10%;
+        background-color: rgb(0, 86, 245);
+        width: 150px;
+        height: 150px;
+    }
+    
+    
+    
+    .btn-vertodos {
+        text-align: center;
+        width: 150px;
+        height: 40px;
+        border-radius: 15px;
+        border-style: none;
+        margin-left: 38%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        background-color: rgb(56, 56, 56);
+    }
+    
+    .btn-vertodos:hover{
+        transition: all 3s ease;
+        color: #212121;
+        background: linear-gradient(90deg, rgba(255,168,69,1) 0%, rgba(255,158,0,1) 38%, rgba(255,116,0,1) 100%); 
+    }
+    
+    .btn-produtos{
+        text-align: center;
+        width: 150px;
+        height: 30px;
+        border-style: none;
+        background-color: rgb(56, 56, 56);
+    }
+    
+    .btn-produtos-nossas{
+        text-align: center;
+        width: 150px;
+        height: 30px;
+        border-style: none;
+        background-color: rgb(56, 56, 56);
+    }
+    .ultimas-producoes-desktop{
+        display: none;
+    }
+    /*MInha section produçoes*/
+    
+    
+    
+    
+    /* INICIO DO MEU FOOTER */ 
+    
+    .footer-mobile{
+        
+        display: flex;
+        height: 26vh;
+        width: 100%;
+        background: linear-gradient(90deg, rgba(255,168,69,1) 0%, rgba(255,158,0,1) 38%, rgba(255,116,0,1) 100%);
+    }
+    
+    .logo-footer{
+        display: none;
+        opacity: 0.80;
+        width: 30%;
+     
+    }
+    
+    .logo-footer img{
+        
+        display: flex;
+        justify-content: center;
+        width: 15vw;
+        margin: 8% 25%;
+    }
+    
+    .contato-rodape{
+        text-align: left;
+        margin-left: 1rem;
+        width: 70%;
+    }
+    
+    .texto-rodepe{
+        margin-top: 3rem;
+    }
+    
+    footer h2 {
+        color: black;
+    }
+    
+    footer p{
+        color: black;
+    }
+    
+    footer i{
+        color: rgb(97, 47, 47);
+        margin-right: 1rem;
+    }
+    
+    footer a{
+        text-decoration: none;
+        color: black;
+    }
+    
+    .contato-a-rodape{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .icon-mobile{
+        margin-top: -15px;
+    }
+    
+    .local{
+        font-size: 15px;
+    }
+    
+    .footer-desktop{
+        display: none;
+    }
+    
+    
+    
 
 
     .botao{
@@ -17,26 +317,36 @@
     }
 }
 
+
 @media screen and (max-width:450px) {
     header .conteiner{
         display: flex;
         flex-direction: column;
     }
-
+    .owl-dots{
+       
+        margin-left: 40%;
+        position: absolute;
+        top: 75%;
+    
+        float: left;
+}
     .botao{
         width: 100%;
     }
 
     .carrosel-filme .item{
         position: relative;
-       margin-left: 0px;
+       margin-left: 25.5vw;
         width: 100%;
         min-width: 50%;
     }
-
+   
 }
+
 @media screen and (min-width:1000px) {
     .descricao{
         width: 50%;
     }
 }
+
