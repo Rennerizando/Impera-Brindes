@@ -121,6 +121,38 @@
     /* MEU section personalize -- CONTATO -- MOBILE */
     
     
+    /* MEU section -- Caneca -- MOBILE */
+    .imagem-select{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .imagem-select img{
+        width: 300px;
+    }
+    .descricao-item h2{
+        color: #212121;
+    }
+    .descricao-item p{
+        color: #3b3b3b;
+    }
+   section .ultimas-producoes .sub-img{
+       justify-content: left;
+       gap: 10px;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .sub-img img{
+        width: 60px;
+        height: 60px;
+        
+    }
+     /* MEU section -- Caneca -- MOBILE */
+
+
+
+
     /*MInha section produçoes*/
     
     .conteiner h2{
@@ -191,12 +223,13 @@
     
     
     .btn-vertodos {
-        text-align: center;
+        display: flex;
+        justify-content: center;
         width: 150px;
         height: 40px;
         border-radius: 15px;
         border-style: none;
-        margin-left: 38%;
+        margin-left: 25%;
         margin-top: 30px;
         margin-bottom: 30px;
         background-color: rgb(56, 56, 56);
