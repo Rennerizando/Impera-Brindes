@@ -79,11 +79,6 @@
    margin: auto;
     justify-content: center;
 }
-.sobre-impera-brindes{
-    height: 50vh;
-    
-    
-}
 .logo-titulo{
    
     margin: 10px 40%;
@@ -99,6 +94,7 @@
     font-size: 28px;
     line-height: 35px;
 }
+
 /* FINAL MEU MAIN */
 
 
@@ -256,6 +252,12 @@ article{
 
 
 /*MInha section produçoes*/
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    
+    margin: auto;
+}
 .todos h3{
     text-align: center;
     color: #212121;
