@@ -177,14 +177,89 @@ margin-left: 40%;
 
 /* MEU section personalize -- CONTATO */
 
+/* MEU SECTION CANECAS -- Canecas-- */
+.selection-product{
+    display: flex;
+    gap: 10vw;
+}
+section .todos h2{
+    font-size: 60px;
+    color: #212121; 
+    margin: auto;
+    padding-top: 80px;
+}
+.selection-product h3{
+    margin-top: 10vh;
+        color: #212121;
+        font-size:2em;
+        margin-bottom: 20px;
+        font-weight: bold;
+    
+}
+.selection-product strong{
+    color: #212121;
+    
+} 
+.selection-product p{
+    color: #8d8d8d;
+    font-size: 1em;
+    margin-bottom: 20px;
+    line-height: 3;
+    font-weight: 500;
+
+}
+article{
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+}
+.product-images{
+    float: left;
+    width: 50%;
+    margin: 10px 25%;
+    padding: 30px;
+    box-shadow: 0 0 5px 2px #ccc;
+}
+.cover img{
+    margin-top: 22px;
+    height: 600px;
+    width: 600px;
+}
+
+.thumbs{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width: 100%;
+    margin-top: 60px;
+    padding: 2.5px;
+    
+}
+
+.thumbs img{
+    float: left;
+    width: 70px;
+    height: 70px;
+    padding: 2.5px;
+    cursor: pointer;
+    
+}
+.thumbs img:hover,
+.thumbs img.active{
+    background: #99ccff;
+}
 
 
 
+/* MEU SECTION CANECAS -- Canecas-- */
 
 
 
 /*MInha section produçoes*/
-
+.todos h3{
+    text-align: center;
+    color: #212121;
+}
 
 .ultimas-producoes{
     display: none;
