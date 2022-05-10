@@ -258,6 +258,7 @@ article{
     
     margin: auto;
 }
+
 .todos h3{
     text-align: center;
     color: #212121;
@@ -426,8 +427,7 @@ article{
     background: linear-gradient(90deg, rgba(255,168,69,1) 0%, rgba(255,158,0,1) 38%, rgba(255,116,0,1) 100%);
 }
 
-footer{
-
+.footer-desktop{
     height: 26vh;
     width: 100%;
     background: linear-gradient(90deg, rgba(255,168,69,1) 0%, rgba(255,158,0,1) 38%, rgba(255,116,0,1) 100%);
@@ -446,7 +446,7 @@ footer img{
 
 }
 
-footer h2 {
+.footer-desktop h2 {
     
     margin-right: 20%;
     font-size: 30px;
@@ -455,7 +455,7 @@ footer h2 {
 }
 
 footer p{
-    
+    float: right;
     padding-top: 22px;
     margin-right: 16%;
     text-align: right;

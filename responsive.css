@@ -190,16 +190,12 @@
     /*MInha section produçoes*/
     
     .conteiner h2{
-        margin-top: 30px;
-        font-size: 48px;
-        text-align: center;
         color: #212121;
-    }
-    
-    .conteiner p{
-        line-height: 25px;
         text-align: center;
+    }
+    .conteiner p{
         color: #757575;
+        text-align: center;
     }
     
     .todos a{
