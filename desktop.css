@@ -300,14 +300,16 @@ article{
 }
 
 .background-produto1{
+    margin-bottom: 5%;
     display: flex;
     justify-content: center;
     flex-direction: row;
-   height: 35vh;
+  
    width: 100%;
 }
 
 .caixa-produto img{
+   
     margin: auto;
     width: 200px;
     height: 200px;
